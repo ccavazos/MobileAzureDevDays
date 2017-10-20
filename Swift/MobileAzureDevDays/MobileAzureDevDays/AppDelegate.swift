@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        SentimentClient.shared.apiKey = ""
+        SentimentClient.shared.apiKey = "410718eb7a69445fb3a119422e9057c1"
 		return true
 	}
 
